@@ -2,8 +2,10 @@
 var hero = $('#hero-txt');
 var layer = $('#move');
 
-
-
+// انیمیشن لود صفحه
+window.onload=function(){
+    document.body.classList.add('loaded');
+};
 
 // تابع برای بروزرسانی میزان پیشرفت در نمودار دایره‌ای
 function updateProgress() {
